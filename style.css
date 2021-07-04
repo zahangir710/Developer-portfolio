@@ -5,7 +5,7 @@
 a{
     text-decoration: none;
 }
-section{
+.flex-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -54,4 +54,27 @@ h2{
 }
 .half-width p{
     padding-right: 150px;
+}
+.third-bg{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.shadow{
+    box-shadow: 5px 10px 40px gray;
+    margin-left: 5%;
+    padding: 20px 20px;
+}
+#border-color2{
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+#border-color1{
+    border-image: linear-gradient(orange,tomato) 30;
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+footer p{
+    text-align: center;
 }
